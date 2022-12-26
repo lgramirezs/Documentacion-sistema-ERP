@@ -110,8 +110,8 @@ Para realizar modificaciones en el tema se recomienda seguir la documentación d
 	
 ##	Construido con
 
-	*	[Mkdocs](https://www.mkdocs.org/) 	
-	*	[Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/)
+	[Mkdocs](https://www.mkdocs.org/) 	
+	[Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/)
 
 
 ## Manuales en PDF
