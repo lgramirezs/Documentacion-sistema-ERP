@@ -1,0 +1,102 @@
+# Project information
+site_name: Documentación de Usuario.
+site_dir: ../../../public/docs/user_payroll
+use_directory_urls: true
+
+# Page tree
+nav:
+      - Inicio: index.md
+      - Módulo de Talento Humano:
+        - Ajustes en Tablas Salariales: salary_adjustments.md
+        - Expediente:
+          - Datos Personales: record/staffs.md
+          - Datos Profesionales: record/professionals.md
+          - Datos Socioeconómicos : record/socioeconomics.md
+          - Datos Laborales : record/employments.md
+        - Registros de Nómina: payroll.md
+        - Solicitudes:
+          - Solicitud de vacaciones: requests/vacation.md
+          - Solicitud de prestaciones: requests/benefits.md
+          - Solicitud de permisos: requests/permission.md
+        - Reportes: 
+          - Disfrute de vacaciones: reports/vacation.md
+          - Estatus de vacaciones: reports/vacation_status.md
+          - Reporte detallado de trabajadores: reports/employees.md
+          # - Cálculo de bono vacacional: reports.md
+          # - Pago de bono vacacional: reports.md
+      - Configuración: 
+        - Formato de Códigos: setting/code_format.md
+        - Configuración de la Edad Laboral Permitida: setting/working_age.md
+        - Registros Comunes: setting/common_records.md 
+        - Parámetros Generales de Nómina: setting/general_parameters.md 
+      - Preguntas Frecuentes: frequent_questions.md  
+
+# Repository
+repo_name: Repositorio-Kavac
+repo_url: https://gestion.cenditel.gob.ve/trac/browser/kavac/
+
+# Configuration
+theme:
+  name: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: es
+  features:
+    - navigation.tabs
+    #- navigation.instant
+  palette:
+    scheme: default
+    # primary: light-blue
+    accent: light-blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: images/favicon.png
+  logo: images/logo.png
+  icon: 
+    repo: fontawesome/brands/git-square 
+  
+          
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - with-pdf:
+      author: Luis Ramírez
+      copyright: http://conocimientolibre.cenditel.gob.ve/licencia-de-software-v-1-3/
+      cover_subtitle: KAVAC - Módulo de Talento Humano
+      output_path: ../../../public/docs/user_payroll_module_manual.pdf
+
+# Customization
+# extra:
+#   social:
+#     - icon: 
+#       link: 
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+
+# css additional
+extra_css:
+  - stylesheets/extra.css
+
+
+
+
+
+
+
+
+            
+
