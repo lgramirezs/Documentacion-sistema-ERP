@@ -116,4 +116,4 @@ Para realizar modificaciones en el tema se recomienda seguir la documentación d
 
 ## Manuales en PDF
 
-[Manuales PDF](https://www.cenditel.gob.ve/portal/kavac-sistema-de-gestion-de-recursos/#descargas/) 
+[Manuales PDF](https://www.cenditel.gob.ve/portal/kavac-sistema-de-gestion-de-recursos/#descargas) 
